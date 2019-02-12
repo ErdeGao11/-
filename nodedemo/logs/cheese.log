@@ -1,0 +1,52 @@
+[2019-02-12T20:49:10.415] [ERROR] cheese - { code: 1,
+  message:
+   'node-fetch和后端通讯异常http://localhost/books/basic/web/index.php?r=library/index',
+  data: [] }
+[2019-02-12T20:50:12.804] [ERROR] cheese - { code: 1,
+  message:
+   'node-fetch和后端通讯异常http://localhost/books/basic/web/index.php?r=library/index',
+  data: [] }
+[2019-02-12T20:50:13.606] [ERROR] cheese - { code: 1,
+  message:
+   'node-fetch和后端通讯异常http://localhost/books/basic/web/index.php?r=library/index',
+  data: [] }
+[2019-02-12T20:50:26.827] [ERROR] cheese - { code: 1,
+  message:
+   'node-fetch和后端通讯异常http://localhost/books/basic/web/index.php?r=library/index',
+  data: [] }
+[2019-02-12T20:50:27.938] [ERROR] cheese - { code: 1,
+  message:
+   'node-fetch和后端通讯异常http://localhost/books/basic/web/index.php?r=library/index',
+  data: [] }
+[2019-02-12T20:50:28.813] [ERROR] cheese - { code: 1,
+  message:
+   'node-fetch和后端通讯异常http://localhost/books/basic/web/index.php?r=library/index',
+  data: [] }
+[2019-02-12T20:50:29.098] [ERROR] cheese - { code: 1,
+  message:
+   'node-fetch和后端通讯异常http://localhost/books/basic/web/index.php?r=library/index',
+  data: [] }
+[2019-02-12T20:50:29.276] [ERROR] cheese - { code: 1,
+  message:
+   'node-fetch和后端通讯异常http://localhost/books/basic/web/index.php?r=library/index',
+  data: [] }
+[2019-02-12T20:50:29.473] [ERROR] cheese - { code: 1,
+  message:
+   'node-fetch和后端通讯异常http://localhost/books/basic/web/index.php?r=library/index',
+  data: [] }
+[2019-02-12T20:50:29.650] [ERROR] cheese - { code: 1,
+  message:
+   'node-fetch和后端通讯异常http://localhost/books/basic/web/index.php?r=library/index',
+  data: [] }
+[2019-02-12T20:50:29.807] [ERROR] cheese - { code: 1,
+  message:
+   'node-fetch和后端通讯异常http://localhost/books/basic/web/index.php?r=library/index',
+  data: [] }
+[2019-02-12T20:50:36.628] [ERROR] cheese - { code: 1,
+  message:
+   'node-fetch和后端通讯异常http://localhost/books/basic/web/index.php?r=library/index',
+  data: [] }
+[2019-02-12T20:50:41.305] [ERROR] cheese - { code: 1,
+  message:
+   'node-fetch和后端通讯异常http://localhost/books/basic/web/index.php?r=library/index',
+  data: [] }

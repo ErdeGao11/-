@@ -1,0 +1,14 @@
+
+{% extends './layout.html' %}
+{% block title %} 第一个node项目 {% endblock %}
+{% block head %}
+<link rel="stylesheet" href="/styles/index.css">
+{% endblock %}
+{% block content %}
+<x-nav></x-nav>
+{% include "../components/common/navigation.html" %}
+    {% include "../components/news/list.html" %}
+{% endblock %}
+{% block script %}
+        <script src="/scripts/index.js"></script>
+{% endblock %}

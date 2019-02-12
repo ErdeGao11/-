@@ -1,0 +1,30 @@
+
+{% extends './layout.html' %}
+{% block title %} 新增武学 {% endblock %}
+{% block head %}
+<link rel="stylesheet" href="/styles/index.css">
+{% endblock %}
+{% block content %}
+    {% include "../components/common/navigation.html" %}
+    {% include "../components/news/add.html" %}
+{% endblock %}
+{% block script %}
+        <!-- <script src="/scripts/add.js"></script> -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="module">
+        console.log("我支持nodule")
+        import("/scripts/add.js").then(mod=>{
+            const create=new mod.default;
+            create.fn();
+        })
+        </script>
+        <!-- 这个和下面的babel是要一起使用在nomodule模式下做兼容。 -->
+        <script type="nomodule" src="https://cdn.staticfile.org/systemjs/3.0.0/system.js">
+        </script>
+        <script type="nomodule">
+            System.import('/scripts/add-bundle.js').then((_)=>{
+                const create =new _.default;
+                create.fn();
+            })
+        </script>
+{% endblock %}

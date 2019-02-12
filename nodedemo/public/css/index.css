@@ -1,0 +1,16 @@
+header{
+    width: 100%;
+    background: #000;
+}
+header ul li{
+    width: 20%;
+    display: inline-block;
+    list-style: none;
+}
+header ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}

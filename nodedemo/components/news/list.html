@@ -1,0 +1,18 @@
+<div class="list">
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th>编号</th>
+                <th>书名</th>
+                <th>作者</th>
+                <th>类型</th>
+            </tr>
+            {% for item in data%}
+            <tr>
+                <td>{{item.ID}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.author}}</td>
+                <td>{{item.type}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>

@@ -1,0 +1,45 @@
+{
+  "name": "fist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development supervisor app.js",
+    "build": "babel ./assets/scripts/add.js --out-file ./assets/scripts/add-bundle.js",
+    "packname": "echo $npm_package_name",
+    "docs": "jsdoc ./**/*.js -d ./docs/jsdocs",
+    "test_es": "node --experimental-modules  --loader ./custom-loader.mjs ./index.js"
+  },
+  "author": "gaoyijian",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "jsdoc": "^3.5.5",
+    "koa": "^2.7.0",
+    "koa-convert": "^1.2.0",
+    "koa-generator": "^1.1.16",
+    "koa-router": "^7.4.0",
+    "koa-simple-router": "^0.2.0",
+    "koa-static": "^5.0.0",
+    "koa-swig": "^2.2.1",
+    "lodash": "^4.17.11",
+    "log4js": "^4.0.1",
+    "mysql": "^2.16.0",
+    "node-fetch": "^2.3.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-modules-systemjs": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "eslint": "^4.11.0",
+    "gulp": "^4.0.0",
+    "puppeteer": "^1.12.2",
+    "rize": "^0.8.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "x-tag": "^2.0.1-beta"
+  }
+}
